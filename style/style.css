@@ -5,9 +5,43 @@
     .p-color{
         color: #FD6E0A;
     }
+    .p-text-color{
+        color: #474747;
+    }
+    .btn-primary{
+       background-color: #FD6E0A;
+       border-radius: 5px;
+       color: #fff;
+       border: none;
+       font-weight: 700;
+       border-radius: 5px;
+       padding: 18px 35px;
+       
+
+    }
 /* Nav Related Style start*/
     nav{
         display: flex;   
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-title{
+        font-size: 45px;    
+        font-weight: 800;
+        color: #1E1E1E;
+    }
+    nav>ul{
+        display: flex;
+        align-items: center;
+    }
+    nav li{
+        list-style: none;
+        margin-right: 50px;
+    }
+    nav a{ 
+        text-decoration: none;
+        color: #474747;
+        font-size: 20px;
 
     }
 /* Nav Related Style end*/
