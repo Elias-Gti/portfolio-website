@@ -173,3 +173,10 @@
     color: #757575;
 
 }
+/* Summary section start */
+.title_summary{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 150px 0px;
+}
